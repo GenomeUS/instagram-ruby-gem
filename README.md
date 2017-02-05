@@ -1,6 +1,7 @@
 - - -
 
-**_This project is a slight modification of the FB released and no longer maintained version of the gem.  This addresses updated dependencies to allow for more recent versions of faraday and faraday middleware_**
+**_This project is a slight modification of the FB released and no longer maintained version of the gem.  This addresses updated dependencies to allow for more recent versions of faraday and faraday middleware.  
+If you find issues, or want to contribute, please fork the repo and submit a pull request for review._**
 
 - - - 
 
@@ -220,7 +221,7 @@ Here are some ways *you* can contribute:
 
 Submitting an Issue
 -------------------
-We use the [GitHub issue tracker](http://github.com/Instagram/instagram-ruby-gem/issues) to track bugs and
+We use the [GitHub issue tracker](https://github.com/GenomeUS/instagram-ruby-gem/issues) to track bugs and
 features. Before submitting a bug report or feature request, check to make sure it hasn't already
 been submitted. You can indicate support for an existing issue by voting it up. When submitting a
 bug report, please include a [Gist](http://gist.github.com/) that includes a stack trace and any
@@ -244,14 +245,6 @@ Submitting a Pull Request
 8. Commit and push your changes.
 9. Submit a pull request. Please do not include changes to the gemspec, version, or history file. (If you want to create your own version for some reason, please do so in a separate commit.)
 10. If you haven't already, complete the Contributor License Agreement ("CLA").
-
-Contributor License Agreement ("CLA")
-_____________________________________
-In order to accept your pull request, we need you to submit a CLA. You only need
-to do this once to work on any of Instagram's or Facebook's open source projects.
-
-Complete your CLA here: [https://code.facebook.com/cla](https://code.facebook.com/cla)
-
 
 Copyright
 ---------
