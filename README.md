@@ -1,6 +1,6 @@
 - - -
 
-**_This project is not actively maintained. Proceed at your own risk!_**
+**_This project is a slight modification of the FB released and no longer maintained version of the gem.  This addresses updated dependencies to allow for more recent versions of faraday and faraday middleware_**
 
 - - - 
 
@@ -12,6 +12,7 @@ A Ruby wrapper for the Instagram REST and Search APIs
 Installation
 ------------
 	gem install instagram
+	gem "instagram", git: 'https://github.com/GenomeUS/instagram-ruby-gem.git'
 
 Instagram REST and Search APIs
 ------------------------------
