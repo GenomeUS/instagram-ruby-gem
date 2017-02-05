@@ -10,10 +10,13 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('faraday_middleware', ['>= 0.8', '< 0.15'])
   s.add_runtime_dependency('multi_json', '>= 1.0.3', '~> 1.0')
   s.add_runtime_dependency('hashie',  '>= 0.4.0')
-  s.authors = ["Shayne Sweeney"]
-  s.description = %q{A Ruby wrapper for the Instagram REST and Search APIs}
+  s.authors = ["Adapted from original author Shayne Sweeney"]
+  s.description = %q{A Ruby wrapper for the Instagram REST and Search APIs - Community Maintained}
   s.post_install_message =<<eos
 ********************************************************************************
+
+*** This is an 'Unofficial' version of the gem that is a direct clone of the 'official' gem with 
+modifications to the dependency version numbers.
 
 Instagram REST and Search APIs
 ------------------------------
@@ -35,16 +38,16 @@ Make sure to tag your questions with the Instagram tag to get fast answers from 
 
 ********************************************************************************
 eos
-  s.email = ['shayne@instagr.am']
+  s.email = ['contact@geno.me']
   s.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.files = `git ls-files`.split("\n")
-  s.homepage = 'https://github.com/Instagram/instagram-ruby-gem'
-  s.name = 'instagram'
+  s.homepage = 'https://github.com/GenomeUS/instagram-ruby-gem.git'
+  s.name = 'instagram-community-maintained'
   s.platform = Gem::Platform::RUBY
   s.require_paths = ['lib']
   s.required_rubygems_version = Gem::Requirement.new('>= 1.3.6') if s.respond_to? :required_rubygems_version=
   s.rubyforge_project = s.name
-  s.summary = %q{Ruby wrapper for the Instagram API}
+  s.summary = %q{Ruby wrapper for the Instagram API - Community Maintained}
   s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.version = Instagram::VERSION.dup
 end

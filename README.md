@@ -11,8 +11,7 @@ A Ruby wrapper for the Instagram REST and Search APIs
 
 Installation
 ------------
-	gem install instagram
-	gem "instagram", git: 'https://github.com/GenomeUS/instagram-ruby-gem.git'
+	gem 'instagram-community-maintained'
 
 Instagram REST and Search APIs
 ------------------------------
@@ -39,7 +38,7 @@ Sample Application
 
 ```ruby
 require "sinatra"
-require "instagram"
+require "instagram-community-maintained"
 
 enable :sessions
 
