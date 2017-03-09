@@ -39,7 +39,7 @@ Sample Application
 
 ```ruby
 require "sinatra"
-require "instagram-community-maintained"
+require "instagram"
 
 enable :sessions
 
